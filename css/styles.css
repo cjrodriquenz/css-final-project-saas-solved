@@ -1,0 +1,113 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  width: 1024px;
+}
+
+/* HEADER SECTION */
+
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header img {
+  width: 150px;
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+
+.nav-links a:active {
+  color: blue;
+}
+
+#buy-now {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+#buy-now:hover {
+  background-color: darkblue;
+}
+
+#buy-now a:hover {
+  color: white;
+}
+
+/* EMPOWERING SECTION */
+section#empowering {
+  display: flex;
+  background-image: url("../assets/bg/background-top.svg");
+}
+
+.empowering-text-container {
+  width: 33%;
+  padding: 20px;
+}
+
+.empowering-text-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.empowering-text-container p {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+div.empowering-buttons a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+#play-video {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.8em;
+}
+
+#play-video:hover {
+  background-color: darkblue;
+}
+
+section#empowering img {
+  width: 30px;
+  height: 30px; /*change later*/
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}

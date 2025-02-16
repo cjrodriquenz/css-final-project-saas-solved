@@ -97,6 +97,7 @@ div.empoweringButtons a {
   border: none;
   border-radius: 20px;
   font-size: 0.8em;
+  text-decoration: none;
 }
 
 #playVideo:hover {
@@ -166,4 +167,78 @@ section#whyFront {
   height: 2px;
   width: 100px;
   margin-top: 20px;
+}
+
+/* PRICING SECTION */
+
+.pricingHead {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pricingTable {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.pricingCard {
+  width: 33%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pricingCard hr {
+  background: darkgray;
+  height: 2px;
+  width: 100%;
+}
+
+.pricingCard h3 str {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.pricingCard h3 {
+  font-weight: normal;
+  color: gray;
+}
+
+#gridComponent img {
+  width: 50px;
+  height: 50px;
+}
+
+.pricingCard #playVideo {
+  width: 30%;
+  text-align: center;
+}
+
+#finePrint {
+  font-size: 0.7em;
+}
+
+.pricingGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+}
+
+#gridComponent {
+  width: 50%;
+}
+
+/* HIRE US SECTION */
+
+#hireUs {
+  background-color: rgb(29, 29, 98);
+  color: white;
+  display: flex;
+  padding: 15px;
 }

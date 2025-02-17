@@ -154,23 +154,25 @@
         </div>
         <div class="hireUsCard">
           <form>
-            <input
-              type="text"
-              id="firstName"
-              name="firstName"
-              placeholder="First Name"
-              required
-            />
-            <br />
-            <br />
-            <input
-              type="text"
-              id="lastName"
-              name="lastName"
-              placeholder="Last Name"
-              required
-            />
-            <br />
+            <p>Fill out the form and we'll be in touch as soon as possible!</p>
+            <div class="firstLastName">
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name"
+                required
+              />
+              <br />
+              <br />
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name"
+                required
+              />
+            </div>
             <br />
             <input
               type="email"
@@ -180,25 +182,25 @@
               required
             />
             <br />
-            <br />
-            <select id="budget" name="budget" required>
-              <option value="" disabled selected hidden>Budget</option>
-              <option value="less than $1000">Less than $1000</option>
-              <option value="$1000-$5000">$1000-$5000</option>
-              <option value="$5000-$10000">$5000-$10000</option>
-              <option value="more than $10000">More than $10000</option>
-            </select>
-            <br />
-            <br />
-            <select id="country" name="country" required>
-              <option value="" disabled selected hidden>Country</option>
-              <option value="usa">USA</option>
-              <option value="canada">Canada</option>
-              <option value="uk">UK</option>
-              <option value="australia">Australia</option>
-              <option value="other">Other</option>
-            </select>
-            <br />
+            <div class="budgetCountry">
+              <select id="budget" name="budget" required>
+                <option value="" disabled selected hidden>Budget</option>
+                <option value="less than $1000">Less than $1000</option>
+                <option value="$1000-$5000">$1000-$5000</option>
+                <option value="$5000-$10000">$5000-$10000</option>
+                <option value="more than $10000">More than $10000</option>
+              </select>
+              <br />
+              <br />
+              <select id="country" name="country" required>
+                <option value="" disabled selected hidden>Country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
             <br />
             <textarea
               id="projectDetails"
@@ -210,26 +212,79 @@
             >
             </textarea>
             <br />
-            <br />
-            <input
-              type="checkbox"
-              id="marketingEmails"
-              name="marketingEmails"
-            />
-            <label for="marketingEmails">
-              Yes, I'd like to receive occasional marketing emails from Front. I
-              have the right to opt out at any time.
-            </label>
-            <br />
-            <br />
-            <a href="#privacy-policy">View Privacy Policy</a>
-            <a href="#privacy-policy">View Privacy Policy</a>
-            <br />
+            <div class="marketingBox">
+              <input
+                type="checkbox"
+                id="marketingEmails"
+                name="marketingEmails"
+              />
+              <label for="marketingEmails">
+                <p>
+                  Yes, I'd like to receive occasional marketing emails from
+                  Front. I have the right to opt out at any time.
+                </p>
+              </label>
+            </div>
+            <div class="privacyPolicies">
+              <a href="#privacy-policy">View Privacy Policy</a>
+              <a href="#privacy-policy">View Privacy Policy</a>
+            </div>
             <br />
             <button type="submit">Get Started</button>
           </form>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="companyInfo">
+        <img src="/assets/logos/logo-front.svg" alt="Front logo" />
+        <address>153 Williamson Plaza, Maggieberg</address>
+        <p>+1 (062) 109-9222</p>
+      </div>
+      <div class="companyLine">
+        <h3>Company</h3>
+        <nav>
+          <ul class="footerNav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#customers">Customers</a></li>
+            <li><a href="#hire-us">Hire Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="featuresLine">
+        <h3>Features</h3>
+        <nav>
+          <ul class="footerFeaturesNav">
+            <li><a href="#press">Press</a></li>
+            <li><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#integrations">Integrations</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="documentationLine">
+        <h3>Documentation</h3>
+        <nav>
+          <ul class="footerDocumentationNav">
+            <li><a href="#support">Support</a></li>
+            <li><a href="#docs">Docs</a></li>
+            <li><a href="#status">Status</a></li>
+            <li><a href="#api-reference">API Reference</a></li>
+            <li><a href="#tech-requirements">Tech Requirements</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="resourceLine">
+        <h3>Resources</h3>
+        <nav>
+          <ul class="footerResourceNav">
+            <li><a href="#help">Help</a></li>
+            <li><a href="#your-account">Your Account</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

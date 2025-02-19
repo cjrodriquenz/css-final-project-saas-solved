@@ -320,6 +320,12 @@ section#whyFront {
   gap: 10px;
 }
 
+.testimonialAuthor img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 .hireUsCard form {
   background-color: white;
   padding: 20px;
@@ -497,5 +503,143 @@ footer ul {
     display: flex;
     flex-direction: column;
     max-width: 60%;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .testimonialText hr {
+    background: darkgray;
+    height: 2px;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonialAuthor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .hireUsCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  header img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .responsiveNav {
+    display: block;
+  }
+
+  .responsiveNavList {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .burger:active > .responsiveNavList {
+    display: block;
+  }
+
+  section#empowering {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .empoweringTextContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .empoweringImageContainer {
+    width: 100%;
+    justify-content: center;
+  }
+
+  section#whyFront {
+    gap: 20px;
+  }
+
+  .whyFrontTextContainer {
+    width: 90%;
+  }
+
+  .whyFrontGraphicContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .basicElementsHR {
+    display: none;
+    border: none;
+  }
+
+  .pricingTable {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pricingCard {
+    width: 100%;
+    margin: auto;
+  }
+
+  .pricingGrid {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #hireUs {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .hireUsText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hireUsCard form {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer ul {
+    text-align: center;
   }
 }

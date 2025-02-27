@@ -155,102 +155,106 @@
       </section>
       <!-- HIRE US SECTION -->
       <section id="hireUs">
-        <div class="hireUsText">
-          <div class="testimonialText">
-            <h2>Hire Us</h2>
-            <p>Whatever your goal - we will get you there</p>
-            <hr />
-            <p class="testimonial">
-              "I love front! I love the ease of use, I love the fact that I have
-              total creative freedom..."
-            </p>
+        <div class="hire2">
+          <div class="hireUsText">
+            <div class="testimonialText">
+              <h2>Hire Us</h2>
+              <p>Whatever your goal - we will get you there</p>
+              <hr />
+              <p class="testimonial">
+                "I love front! I love the ease of use, I love the fact that I
+                have total creative freedom..."
+              </p>
+            </div>
+            <div class="testimonialAuthor">
+              <p class="authorName">Charlotte Moore</p>
+              <p class="authorPosition">Head of Commercials, Slack</p>
+              <img src="/assets/images/man_one.jpg" alt="Author" />
+            </div>
           </div>
-          <div class="testimonialAuthor">
-            <p class="authorName">Charlotte Moore</p>
-            <p class="authorPosition">Head of Commercials, Slack</p>
-            <img src="/assets/images/man_one.jpg" alt="Author" />
-          </div>
-        </div>
-        <div class="hireUsCard">
-          <form>
-            <p>Fill out the form and we'll be in touch as soon as possible!</p>
-            <div class="firstLastName">
+          <div class="hireUsCard">
+            <form>
+              <p>
+                Fill out the form and we'll be in touch as soon as possible!
+              </p>
+              <div class="firstLastName">
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="First Name"
+                  required
+                />
+                <br />
+                <br />
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+              <br />
               <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                placeholder="First Name"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
                 required
               />
               <br />
+              <div class="budgetCountry">
+                <select id="budget" name="budget" required>
+                  <option value="" disabled selected hidden>Budget</option>
+                  <option value="less than $1000">Less than $1000</option>
+                  <option value="$1000-$5000">$1000-$5000</option>
+                  <option value="$5000-$10000">$5000-$10000</option>
+                  <option value="more than $10000">More than $10000</option>
+                </select>
+                <br />
+                <br />
+                <select id="country" name="country" required>
+                  <option value="" disabled selected hidden>Country</option>
+                  <option value="usa">USA</option>
+                  <option value="canada">Canada</option>
+                  <option value="uk">UK</option>
+                  <option value="australia">Australia</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
               <br />
-              <input
-                type="text"
-                id="lastName"
-                name="lastName"
-                placeholder="Last Name"
+              <textarea
+                id="projectDetails"
+                name="projectDetails"
+                rows="4"
+                cols="50"
+                placeholder="Tell us more about your project, needs, and timeline, please..."
                 required
-              />
-            </div>
-            <br />
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email"
-              required
-            />
-            <br />
-            <div class="budgetCountry">
-              <select id="budget" name="budget" required>
-                <option value="" disabled selected hidden>Budget</option>
-                <option value="less than $1000">Less than $1000</option>
-                <option value="$1000-$5000">$1000-$5000</option>
-                <option value="$5000-$10000">$5000-$10000</option>
-                <option value="more than $10000">More than $10000</option>
-              </select>
+              >
+              </textarea>
               <br />
+              <div class="marketingBox">
+                <input
+                  type="checkbox"
+                  id="marketingEmails"
+                  name="marketingEmails"
+                />
+                <label for="marketingEmails">
+                  <p>
+                    Yes, I'd like to receive occasional marketing emails from
+                    Front. I have the right to opt out at any time.
+                  </p>
+                </label>
+              </div>
+              <div class="privacyPolicies">
+                <a href="#privacy-policy">View Privacy Policy</a>
+                <a href="#privacy-policy">View Privacy Policy</a>
+              </div>
               <br />
-              <select id="country" name="country" required>
-                <option value="" disabled selected hidden>Country</option>
-                <option value="usa">USA</option>
-                <option value="canada">Canada</option>
-                <option value="uk">UK</option>
-                <option value="australia">Australia</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <br />
-            <textarea
-              id="projectDetails"
-              name="projectDetails"
-              rows="4"
-              cols="50"
-              placeholder="Tell us more about your project, needs, and timeline, please..."
-              required
-            >
-            </textarea>
-            <br />
-            <div class="marketingBox">
-              <input
-                type="checkbox"
-                id="marketingEmails"
-                name="marketingEmails"
-              />
-              <label for="marketingEmails">
-                <p>
-                  Yes, I'd like to receive occasional marketing emails from
-                  Front. I have the right to opt out at any time.
-                </p>
-              </label>
-            </div>
-            <div class="privacyPolicies">
-              <a href="#privacy-policy">View Privacy Policy</a>
-              <a href="#privacy-policy">View Privacy Policy</a>
-            </div>
-            <br />
-            <button type="submit">Get Started</button>
-          </form>
+              <button type="submit">Get Started</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>

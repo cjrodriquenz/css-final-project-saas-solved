@@ -1,0 +1,257 @@
+@media (max-width: 1023px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .responsiveNav {
+    display: block;
+  }
+
+  .responsiveNavList {
+    display: none;
+  }
+
+  .line {
+    border: 1px solid black;
+    width: 15px;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .burger:active > .responsiveNavList {
+    display: block;
+  }
+
+  .empoweringButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .empoweringButtons a {
+    font-size: 14px;
+  }
+
+  .pricingTable {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pricingCard {
+    width: 90%;
+    margin: auto;
+  }
+
+  .pricingGrid {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+  }
+
+  #hireUs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hire2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+  }
+
+  .hireUsText {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .testimonialText {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .testimonialText hr {
+    background: darkgray;
+    height: 2px;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonialAuthor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .hireUsCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .responsiveNav {
+    display: block;
+  }
+
+  .responsiveNavList {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .burger:active > .responsiveNavList {
+    display: block;
+  }
+
+  section#empowering {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .empoweringTextContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .empoweringImageContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    gap: 3px;
+  }
+
+  #asana,
+  #atlassian,
+  #calendar,
+  #google-ads,
+  #google,
+  #paypal,
+  #weave {
+    position: relative;
+  }
+
+  #asana {
+    top: 0;
+    right: 0;
+  }
+  #atlassian {
+    top: 0;
+    right: 0;
+  }
+  #calendar {
+    top: 0;
+    right: 0;
+  }
+  #google-ads {
+    top: 0;
+    right: 0;
+  }
+  #google {
+    top: 0;
+    right: 0;
+  }
+  #paypal {
+    top: 0;
+    right: 0;
+  }
+  #weave {
+    top: 0;
+    right: 0;
+  }
+
+  section#whyFront {
+    gap: 20px;
+  }
+
+  .whyFrontTextContainer {
+    width: 90%;
+  }
+
+  .whyFrontGraphicContainer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #basicElementsHR {
+    display: none;
+    border: none;
+  }
+
+  .pricingTable {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pricingCard {
+    width: 90%;
+    margin: auto;
+  }
+
+  .pricingGrid {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #hireUs {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer ul {
+    text-align: center;
+  }
+}
